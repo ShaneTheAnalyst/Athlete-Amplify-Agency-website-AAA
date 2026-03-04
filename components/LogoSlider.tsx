@@ -13,7 +13,7 @@ const LogoSlider: React.FC = () => {
         {[...Array(2)].map((_, idx) => (
           <div key={idx} className="flex gap-20 items-center px-10">
             {leagues.map((league) => (
-              <span key={league} className="text-2xl md:text-4xl font-black text-white/10 italic hover:text-white/40 transition-colors cursor-default">
+              <span key={league} className="text-2xl md:text-4xl font-black text-yellow/10 italic hover:text-white/40 transition-colors cursor-default">
                 {league}
               </span>
             ))}

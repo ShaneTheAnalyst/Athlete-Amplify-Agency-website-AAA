@@ -35,8 +35,8 @@ const Testimonials: React.FC = () => {
           <div className="grid grid-cols-2 gap-4">
             {[
               { label: "Combined Follower Growth", val: "+210M" },
-              { label: "Commercial Deals Secured", val: "50+" },
-              { label: "Global Brand Partners", val: "45+" },
+              { label: "Commercial Deals Secured", val: "100+" },
+              { label: "Global Brand Partners", val: "75+" },
               { label: "Player Market Value Increase", val: "45%" }
             ].map(stat => (
               <div key={stat.label} className="p-8 bg-white/5 border border-white/10 rounded-3xl text-center">

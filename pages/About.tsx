@@ -6,9 +6,9 @@ import { Globe, Users, TrendingUp, Award } from 'lucide-react';
 const About: React.FC = () => {
   const stats = [
     { label: 'Global Reach', value: '500M+', icon: Globe },
-    { label: 'Active Athletes', value: '120+', icon: Users },
+    { label: 'Active Athletes', value: '40+', icon: Users },
     { label: 'Brand Deals', value: '$250M+', icon: TrendingUp },
-    { label: 'Years Experience', value: '15+', icon: Award },
+    { label: 'Global Brand Network', value: '75+', icon: Award },
   ];
 
   return (
@@ -30,10 +30,10 @@ const About: React.FC = () => {
             </p>
           </div>
           <div className="relative">
-            <div className="aspect-square rounded-3xl overflow-hidden">
+            <div className="aspect-video rounded-3xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1522770179533-24471fcdba45?auto=format&fit=crop&q=80&w=1000" 
-                alt="Stadium" 
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=2000" 
+                alt="Athlete Amplify Agency Team" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
                 loading="lazy"
@@ -42,7 +42,7 @@ const About: React.FC = () => {
             </div>
             <div className="absolute -bottom-10 -left-10 bg-white p-8 rounded-2xl hidden md:block">
               <p className="text-black font-bold text-4xl">500M+</p>
-              <p className="text-gray-500 uppercase tracking-widest text-xs">Total Audience Reach</p>
+              <p className="text-gray-500 uppercase tracking-widest text-xs">Total Audience Reached</p>
             </div>
           </div>
         </div>

@@ -12,9 +12,9 @@ export const SERVICE_PACKAGES: ServicePackage[] = [
     features: [
       'Social Media Management',
       'Content Strategy',
-      'Tier 3 Brand Partnerships',
+      'Tier 3 Brand Partnerships GUARANTEED',
       'Monthly Performance Reports',
-      'Basic PR Support'
+      'Dedicated Brand Manager'
     ]
   },
   {
@@ -27,9 +27,10 @@ export const SERVICE_PACKAGES: ServicePackage[] = [
     features: [
       'All Standard Features',
       'Advanced Partnership Scouting',
-      'Tier 2 Brand Partnerships',
-      'Personal Branding Workshop',
-      'Dedicated Account Manager'
+      'Tier 2 Brand Partnerships GUARANTEED',
+      'Personal Brand Development',
+      'Custom Website & App Development',
+      'Dedicated Account Manager & AI Agent'
     ]
   },
   {
@@ -42,10 +43,11 @@ export const SERVICE_PACKAGES: ServicePackage[] = [
     features: [
       'All Growth Features',
       'Global Management',
-      'Tier 1 Brand Partnerships',
+      'Tier 1 Brand Partnerships GUARANTEED',
       '24/7 Concierge Support',
+      'Custom Website & App Development',
       'Crisis Management & PR',
-      'International Tax & Legal Referral'
+      'International Legacy Building'
     ]
   },
   {
@@ -59,9 +61,9 @@ export const SERVICE_PACKAGES: ServicePackage[] = [
       'All Premium Features',
       'Full Brand Identity Design',
       'Custom Website & App Development',
-      'Private Jet & Luxury Travel Management',
-      'Venture Capital & Investment Advisory',
-      'Legacy Building Strategy'
+      'Luxury Travel Management',
+      'Venture Capital & Investment Advisory Data Team',
+      'Legacy Building BrandSpecialist Team & AI Agent Team Strategy'
     ]
   }
 ];
