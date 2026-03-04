@@ -1,0 +1,8 @@
+{
+  "name": "Athlete Amplify Agency",
+  "description": "Athlete Amplify Agency is a premium marketing and personal branding agency for professional football players globally, offering elite social media growth and brand partnership management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

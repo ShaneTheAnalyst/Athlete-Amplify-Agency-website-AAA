@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #050505;
+  --ink: #ffffff;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+.custom-scroll-mask {
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%);
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+/* Luxury transitions */
+.page-transition-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+.page-transition-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
+.page-transition-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.page-transition-exit-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 500ms, transform 500ms;
+}
