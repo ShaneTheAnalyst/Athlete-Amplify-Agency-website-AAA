@@ -10,6 +10,7 @@ import About from './pages/About';
 import ContactPage from './pages/Contact';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
+import OrderForm from './pages/OrderForm';
 import { CartProvider } from './context/CartContext';
 
 const ScrollToTop = () => {
@@ -43,6 +44,7 @@ const App: React.FC = () => {
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/checkout" element={<Checkout />} />
+                <Route path="/order" element={<OrderForm />} />
               </Routes>
             </AnimatePresence>
           </main>

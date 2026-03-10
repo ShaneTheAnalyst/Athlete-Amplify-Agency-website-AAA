@@ -32,8 +32,8 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="aspect-video rounded-3xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=2000" 
-                alt="Athlete Amplify Agency Team" 
+                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=2000" 
+                alt="Athlete Amplify Agency Leadership Team" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
                 loading="lazy"
